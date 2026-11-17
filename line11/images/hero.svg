@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <rect width="480" height="300" fill="#f4f5f7"/>
+
+  <!-- Transfer lines -->
+  <path d="M40 60 H90 L130 100 V280" stroke="#00a84d" stroke-width="8" fill="none" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M265 30 V280" stroke="#00a5de" stroke-width="8" fill="none" opacity="0.85"/>
+
+  <!-- Line 11 -->
+  <path d="M50 210 H150 L200 160 H330 L380 110 H440" stroke="#ef7c1c" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Stations -->
+  <circle cx="50" cy="210" r="8" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <circle cx="130" cy="210" r="12" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <circle cx="265" cy="160" r="12" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <circle cx="355" cy="135" r="8" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <circle cx="440" cy="110" r="12" fill="#222222"/>
+  <circle cx="440" cy="110" r="5" fill="#ef7c1c"/>
+
+  <!-- Labels -->
+  <g font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#222222">
+    <text x="50" y="240" text-anchor="middle">Start</text>
+    <text x="146" y="238">Plan</text>
+    <text x="281" y="186">Focus</text>
+    <text x="368" y="156">Review</text>
+    <text x="440" y="88" text-anchor="middle">Live</text>
+  </g>
+
+  <!-- Line badge -->
+  <circle cx="420" cy="252" r="18" fill="#ef7c1c"/>
+  <text x="420" y="258" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+</svg>
